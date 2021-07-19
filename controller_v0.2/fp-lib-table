@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name ESP32-WROOM-32D)(type KiCad)(uri ${KIPRJMOD}/lib/ESP32-WROOM-32D/ESP32-WROOM-32D.pretty)(options "")(descr ""))
+  (lib (name EPK389MK)(type KiCad)(uri ${KIPRJMOD}/lib/Joystick/EPK389MK.pretty)(options "")(descr ""))
+  (lib (name MAX17048G_T10)(type KiCad)(uri ${KIPRJMOD}/lib/MAX17048G_T10/MAX17048G_T10.pretty)(options "")(descr ""))
+  (lib (name MIC531833YD5TR)(type KiCad)(uri ${KIPRJMOD}/lib/MIC531833YD5TR/MIC531833YD5TR.pretty)(options "")(descr ""))
+)

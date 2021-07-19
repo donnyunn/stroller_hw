@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\donny\rotom\stroller\hwspace\controller_v0.2\controller.sch</source>
+    <date>2021-06-29 오후 4:09:32</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>ESP32-WROOM-32D</value>
+      <footprint>ESP32-WROOM-32D:MODULE_ESP32-WROOM-32D</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/espressif-systems/ESP32-WROOM-32D-4MB/1965-ESP32-WROOM-32D-4MB-CT-ND/9381732</datasheet>
+      <fields>
+        <field name="MPN">ESP32-WROOM-32D</field>
+      </fields>
+      <libsource lib="ESP32-WROOM-32D" part="ESP32-WROOM-32D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B449C2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Battery</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/molex/0532610271/WM7620CT-ND/699107</datasheet>
+      <fields>
+        <field name="MPN">0532610271</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF0609</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF3608</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/avx-corporation/TAJA475K006RNJ/478-3867-1-ND/1126913</datasheet>
+      <fields>
+        <field name="MPN">TAJA475K006RNJ</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF8F74</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603FR-072KL/311-2-00KHRCT-ND/729956</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-072KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFAD66</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFC655</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Battery Charger Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BFE9EB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/avx-corporation/TAJA475K006RNJ/478-3867-1-ND/1126913</datasheet>
+      <fields>
+        <field name="MPN">TAJA475K006RNJ</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C04292</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/gct/USB3076-30-A/2073-USB3076-30-ACT-ND/9859706</datasheet>
+      <fields>
+        <field name="MPN">USB3076-30-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C0A3C7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C1BF4D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Power Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C42352</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/AC0603JR-0710KL/311-10KLECT-ND/2828151</datasheet>
+      <fields>
+        <field name="MPN">AC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C5FEB9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BLE Indicator</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C6DEE7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Joystick</value>
+      <footprint>EPK389MK:EPX389MK</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=32769</datasheet>
+      <fields>
+        <field name="MPN">조이스틱 스위치-TS</field>
+      </fields>
+      <libsource lib="EPK389MK" part="EPK389MK" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C80A1D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C84FA3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>NC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C98CF0</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603FR-070RL/311-0-0HRCT-ND/4340584</datasheet>
+      <fields>
+        <field name="MPN">RC0603FR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C9DBC8</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX17048G+T10</value>
+      <footprint>MAX17048G_T10:MAX17048G_T10</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/maxim-integrated/MAX17048G-T10/MAX17048G-T10CT-ND/9564051</datasheet>
+      <fields>
+        <field name="MPN">MAX17048G+T10</field>
+      </fields>
+      <libsource lib="MAX17048G_T10" part="MAX17048G+T10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA8484</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Power On/Off</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE19E8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Pairing</value>
+      <footprint>OPL_Switch:SW4-6.0X6.0X5.0MM</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=2630843</datasheet>
+      <fields>
+        <field name="MPN">TS-1105-8MM</field>
+      </fields>
+      <libsource lib="OPL_Switch" part="DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D03FEC</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>brake</value>
+      <footprint>OPL_Switch:SW4-6.0X6.0X5.0MM</footprint>
+      <fields>
+        <field name="MPN">TS-1105</field>
+      </fields>
+      <libsource lib="OPL_Switch" part="DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D12F78</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Battery 25%</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D1727D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Battery 50%</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D1AD55</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Battery 75%</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D21E76</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Battery 100%</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=8104621</datasheet>
+      <fields>
+        <field name="MPN">WR148UW-W</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D21E89</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5318-3.3YD5-TR</value>
+      <footprint>MIC531833YD5TR:MIC5318-3.3YD5-TR</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/microchip-technology/MIC5318-3-3YD5-TR/576-2860-1-ND/1822020</datasheet>
+      <fields>
+        <field name="MPN">MIC5318-3.3YD5-TR</field>
+      </fields>
+      <libsource lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD49C4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DEF87A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B103KB8NNNC/1276-1009-1-ND/3889095</datasheet>
+      <fields>
+        <field name="MPN">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DF07F5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10A105KQ8NNNC/1276-1036-1-ND/3889122</datasheet>
+      <fields>
+        <field name="MPN">CL10A105KQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E00C38</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>isp</value>
+      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <datasheet>https://www.eleparts.co.kr/goods/view?no=7600842</datasheet>
+      <fields>
+        <field name="MPN">B6B-PH-K-S(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E2C604</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5B56A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5C3AF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5C63E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5C909</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5CBE0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-07470RL/311-470GRCT-ND/729738</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5CEBF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/AC0603JR-0710KL/311-10KLECT-ND/2828151</datasheet>
+      <fields>
+        <field name="MPN">AC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5DB5A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/AC0603JR-0710KL/311-10KLECT-ND/2828151</datasheet>
+      <fields>
+        <field name="MPN">AC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5DEDD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/AC0603JR-0710KL/311-10KLECT-ND/2828151</datasheet>
+      <fields>
+        <field name="MPN">AC0603JR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5E256</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/yageo/RC0603JR-071KL/311-1-0KGRCT-ND/729624</datasheet>
+      <fields>
+        <field name="MPN">RC0603JR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5E5E0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E5E9C9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E617F6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E61E2F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6244C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.kr/product-detail/ko/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLCT-ND/10320686</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E62A47</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73832-2-OT">
+      <aliases>
+        <alias>MCP73832-5-OT</alias>
+        <alias>MCP73832-4-OT</alias>
+        <alias>MCP73832-3-OT</alias>
+        <alias>MCP73831-2-OT</alias>
+        <alias>MCP73831-5-OT</alias>
+        <alias>MCP73831-4-OT</alias>
+        <alias>MCP73831-3-OT</alias>
+      </aliases>
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPK389MK" part="EPK389MK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EPK389MK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="Vdd" type="input"/>
+        <pin num="3" name="VRx" type="input"/>
+        <pin num="4" name="VRy" type="input"/>
+        <pin num="5" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-WROOM-32D" part="ESP32-WROOM-32D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32D</field>
+        <field name="Footprint">MODULE_ESP32-WROOM-32D</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.2 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="PARTREV">1.9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0" type="BiDi"/>
+        <pin num="35" name="TXD0" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39_1" name="GND" type="power_in"/>
+        <pin num="39_2" name="GND" type="power_in"/>
+        <pin num="39_3" name="GND" type="power_in"/>
+        <pin num="39_4" name="GND" type="power_in"/>
+        <pin num="39_5" name="GND" type="power_in"/>
+        <pin num="39_6" name="GND" type="power_in"/>
+        <pin num="39_7" name="GND" type="power_in"/>
+        <pin num="39_8" name="GND" type="power_in"/>
+        <pin num="39_9" name="GND" type="power_in"/>
+        <pin num="39_10" name="GND" type="power_in"/>
+        <pin num="39_11" name="GND" type="power_in"/>
+        <pin num="39_12" name="GND" type="power_in"/>
+        <pin num="39_13" name="GND" type="power_in"/>
+        <pin num="39_14" name="GND" type="power_in"/>
+        <pin num="39_15" name="GND" type="power_in"/>
+        <pin num="39_16" name="GND" type="power_in"/>
+        <pin num="39_17" name="GND" type="power_in"/>
+        <pin num="39_18" name="GND" type="power_in"/>
+        <pin num="39_19" name="GND" type="power_in"/>
+        <pin num="39_20" name="GND" type="power_in"/>
+        <pin num="39_21" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX17048G_T10" part="MAX17048G+T10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX17048G+T10</field>
+        <field name="Footprint">SON50P200X200X80-9N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTG" type="power_in"/>
+        <pin num="2" name="CELL" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~ALERT" type="output"/>
+        <pin num="6" name="QSTRT" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="SDA" type="BiDi"/>
+        <pin num="9" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR">
+      <footprints>
+        <fp>TSOT-23-5_D5_MCH</fp>
+        <fp>TSOT-23-5_D5_MCH-M</fp>
+        <fp>TSOT-23-5_D5_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5318-3.3YD5-TR</field>
+        <field name="Footprint">TSOT-23-5_D5_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BYP" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Switch" part="DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_">
+      <footprints>
+        <fp>*SW4-6.0X6.0X5.0MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_</field>
+        <field name="SKU">311020024</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="BiDi"/>
+        <pin num="2" name="B0" type="BiDi"/>
+        <pin num="3" name="B1" type="BiDi"/>
+        <pin num="4" name="A1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="EPK389MK">
+      <uri>C:\Users\donny\rotom\stroller\hwspace\controller_v0.2/lib/Joystick/EPK389MK.lib</uri>
+    </library>
+    <library logical="ESP32-WROOM-32D">
+      <uri>C:\Users\donny\rotom\stroller\hwspace\controller_v0.2/lib/ESP32-WROOM-32D/ESP32-WROOM-32D.lib</uri>
+    </library>
+    <library logical="MAX17048G_T10">
+      <uri>C:\Users\donny\rotom\stroller\hwspace\controller_v0.2/lib/MAX17048G_T10/MAX17048G_T10.lib</uri>
+    </library>
+    <library logical="MIC531833YD5TR">
+      <uri>C:\Users\donny\rotom\stroller\hwspace\controller_v0.2/lib/MIC531833YD5TR/MIC531833YD5TR.lib</uri>
+    </library>
+    <library logical="OPL_Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/OPL_Switch.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="D1" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="2" name="GPIO19">
+      <node ref="U3" pin="31"/>
+      <node ref="U5" pin="7"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="3" name="Earth">
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="39_17"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="39_18"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="39_19"/>
+      <node ref="U3" pin="39_20"/>
+      <node ref="U3" pin="39_21"/>
+      <node ref="U3" pin="39_16"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="39_15"/>
+      <node ref="U3" pin="39_6"/>
+      <node ref="U3" pin="39_14"/>
+      <node ref="U3" pin="39_13"/>
+      <node ref="U3" pin="39_12"/>
+      <node ref="U3" pin="39_11"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="39_9"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="39_8"/>
+      <node ref="U3" pin="39_7"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="39_10"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U3" pin="39_5"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="U3" pin="38"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U3" pin="15"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U3" pin="39_1"/>
+      <node ref="U3" pin="39_2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="39_3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="39_4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="C2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C9-Pad1)">
+      <node ref="SW3" pin="3"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="6" name="GPIO17">
+      <node ref="U3" pin="28"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad1)">
+      <node ref="SW2" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="8" name="GPIO16">
+      <node ref="SW2" pin="2"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="9" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R10-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="11" name="GPIO35">
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="12" name="GPIO34">
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="13" name="Net-(C6-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="14" name="GPIO18">
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="30"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="15" name="GPIO5">
+      <node ref="U5" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="16" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="17" name="GPIO25">
+      <node ref="U3" pin="10"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="22" name="GPIO0">
+      <node ref="U3" pin="25"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="23" name="EN">
+      <node ref="J3" pin="5"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="24" name="GPIO32">
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D6-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="27" name="GPIO12">
+      <node ref="U3" pin="14"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="29" name="GPIO14">
+      <node ref="D5" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="30" name="GPIO27">
+      <node ref="D4" pin="2"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="31" name="GPIO26">
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="32" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="33" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="35" name="SDI">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="36" name="SDO">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="37" name="SCK">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="38" name="SCS">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="39" name="SWP">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="40" name="SHD">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="41" name="RX0">
+      <node ref="U3" pin="34"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="42" name="GPIO23">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="43" name="+5V">
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="45" name="GPIO22">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="46" name="GPIO21">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="47" name="GPIO4">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="48" name="GPIO15">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="49" name="GPIO13">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="50" name="GPIO33">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="51" name="VN">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="52" name="VP">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="53" name="GPIO2">
+      <node ref="U3" pin="24"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="54" name="TX0">
+      <node ref="U3" pin="35"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="57" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32-WROOM-32D)(type Legacy)(uri ${KIPRJMOD}/lib/ESP32-WROOM-32D/ESP32-WROOM-32D.lib)(options "")(descr ""))
+  (lib (name MCP6044T-I_ST)(type Legacy)(uri ${KIPRJMOD}/lib/MCP6044T/MCP6044T-I_ST.lib)(options "")(descr ""))
+)
