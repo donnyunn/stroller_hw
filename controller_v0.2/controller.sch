@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Controller"
-Date "2021-07-05"
-Rev "v0.2"
+Date "2021-08-19"
+Rev "v1.0"
 Comp "Rotom"
 Comment1 ""
 Comment2 ""
@@ -752,7 +752,7 @@ F 3 "~" H 3450 1200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L OPL_Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_ SW2
+L controller-rescue:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_-OPL_Switch SW2
 U 1 1 60D03FEC
 P 5350 3750
 F 0 "SW2" V 5308 3978 45  0000 L CNN
@@ -792,7 +792,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4400 5250 4400
 $Comp
-L OPL_Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_ SW3
+L controller-rescue:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_-OPL_Switch SW3
 U 1 1 60D12F78
 P 6100 3750
 F 0 "SW3" V 6058 3978 45  0000 L CNN
