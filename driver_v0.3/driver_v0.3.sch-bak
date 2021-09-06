@@ -289,7 +289,7 @@ U 1 1 613565DF
 P 9700 3700
 F 0 "J?" H 9780 3692 50  0000 L CNN
 F 1 "Button" H 9780 3601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 9700 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9700 3700 50  0001 C CNN
 F 3 "~" H 9700 3700 50  0001 C CNN
 	1    9700 3700
 	1    0    0    1   
@@ -384,7 +384,7 @@ U 1 1 61378A74
 P 9700 4700
 F 0 "J?" H 9780 4692 50  0000 L CNN
 F 1 "LED" H 9780 4601 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 9700 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9700 4700 50  0001 C CNN
 F 3 "~" H 9700 4700 50  0001 C CNN
 	1    9700 4700
 	1    0    0    1   
